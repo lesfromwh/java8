@@ -1,4 +1,4 @@
-package com.ls.java8;
+package src.com.ls.java8;
 
 /**
  * Created by liushuang on 2017/7/25.

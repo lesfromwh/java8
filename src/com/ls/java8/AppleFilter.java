@@ -1,4 +1,4 @@
-package com.ls.java8;
+package src.com.ls.java8;
 
 
 import org.junit.Test;
