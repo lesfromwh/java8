@@ -1,14 +1,11 @@
-package src.com.ls.java8;
+package src.com.ls.java8.lambda;
 
 
 import org.junit.Test;
+import src.com.ls.java8.lambda.Apple;
 
-import java.io.FilenameFilter;
-import java.net.PortUnreachableException;
 import java.util.*;
-import java.util.function.Consumer;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 

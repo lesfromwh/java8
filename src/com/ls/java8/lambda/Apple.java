@@ -1,4 +1,4 @@
-package src.com.ls.java8;
+package src.com.ls.java8.lambda;
 
 /**
  * Created by liushuang on 2017/7/4.
@@ -29,5 +29,12 @@ public class Apple {
                 "color='" + color + '\'' +
                 ", weight=" + weight +
                 '}';
+    }
+
+    /**
+     * Created by liushuang on 2017/7/25.
+     */
+    public static interface ApplePredicate {
+        boolean test(Apple apple);
     }
 }

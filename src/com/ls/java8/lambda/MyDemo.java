@@ -1,4 +1,4 @@
-package com.ls.java8;
+package src.com.ls.java8.lambda;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
