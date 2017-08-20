@@ -1,4 +1,4 @@
-package com.ls.java8;
+package src.com.ls.java8;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -13,8 +13,5 @@ public class MyDemo {
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
         String format = df.format(date);
         System.out.println(format);
-
-
-
     }
 }
