@@ -20,7 +20,8 @@ public class ReflectDemo {
             String methodName = "get"+name.substring(0,1).toUpperCase()+name.substring(1);
             try {
                 Method method = c.getMethod(methodName);
-                Object value = method.invoke(user);
+//                Object value = method.invoke(user);   // value   name=ls  age=23
+                Object value = method.invoke(c.newInstance());// newInstance()生产的对象是一个初始对象. value 都是默认值null.
                 System.out.println(value);
             } catch (Exception e) {
                 e.printStackTrace();

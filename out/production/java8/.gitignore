@@ -1,9 +1,0 @@
-/.idea/
-/target/
-/.settings/
-/.classpath
-/.project
-*.iml
-/file
-src/main/resources/node_modules
-/bin/

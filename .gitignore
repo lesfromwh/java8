@@ -7,3 +7,4 @@
 /file
 src/main/resources/node_modules
 /bin/
+/out/
