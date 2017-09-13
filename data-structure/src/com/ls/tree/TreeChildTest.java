@@ -9,9 +9,11 @@ public class TreeChildTest {
 
     @Test
     public void demo1() {
-        TreeChild<String> root = new TreeChild<>("root");
-        TreeChild.Node<String> rootNode = root.getRoot();
-        root.addNode("a",rootNode);
-        System.out.println(root);
+        TreeChild<String> tree = new TreeChild<>("root");
+        TreeChild.Node<String> rootNode = tree.getRoot();
+        tree.addNode("a",rootNode);
+        tree.addNode("b",rootNode);
+//        tree.addNode("a1",);
+        System.out.println(tree);
     }
 }

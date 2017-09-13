@@ -75,7 +75,7 @@ public class TreeChild<E> {
                 }
                 //然后遍历指定结点的链表,将新节点放到链表尾部.
                 ChildNode next = node.firstNode;
-                while (next.next == null) {
+                while (next.next != null) {
                     next = next.next;
                 }
                 next.next = new ChildNode(i, null);
