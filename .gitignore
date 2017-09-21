@@ -8,3 +8,5 @@
 src/main/resources/node_modules
 /bin/
 /out/
+/restserver/mvnw
+/restserver/mvnw.cmd
